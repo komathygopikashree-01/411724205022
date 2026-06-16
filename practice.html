@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title> HTML CLASS </title>
+    </head>
+    <body>
+        Enter the first no:<input id="one" type ="number"><br>
+        Enter the second no:<input id="two" type ="number"><br>
+        <button onclick="ADD()">ADD</button>
+        <script>
+            function ADD(){
+                let one = Number(document.getElementById("one").value);
+                let two = Number(document.getElementById("two").value);
+                console.log(one+two);
+            }
+        </script>
+    </body>
+</html>
